@@ -1,0 +1,52 @@
+.containerTable {
+  width: 840px;
+  margin: 10px auto;
+}
+
+.rowTable {
+  display: flex;
+  flex-direction: row;
+  border-bottom: thin solid #c2191f;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.rowTable:first-child {
+  border-top: thin solid #2c2c2e;
+  background-color: #c2191f;
+  color: white;
+}
+
+.rowTable:hover {
+  background-color: #c2191f;
+  color: white;
+}
+
+.cell {
+  min-width: 80px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-left: thin solid #2c2c2e;
+}
+
+.cell:last-child {
+  border-right: thin solid #2c2c2e;
+}
+
+.position {
+  width: 50px;
+}
+
+.titleNameTeam {
+  width: 120px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.nameTeam {
+  width: 120px;
+  padding: 5px;
+  text-align: left;
+  line-height: normal;
+}

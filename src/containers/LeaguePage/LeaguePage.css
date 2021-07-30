@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.navElement {
+  padding: 5px 30px;
+  margin: 0 5px;
+  color: #2c2c2e;
+  font-weight: bold;
+  border-bottom: 2px solid #c2191f;
+  border-right: 2px solid #c2191f;
+  border-left: 2px solid #c2191f;
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+  transition: 0.2s ease-in;
+}
+
+.navElement:hover {
+  transform: translateY(-5px);
+}
+
+.active {
+  background-color: #c2191f;
+  color: white;
+}
+
+.nameLeague {
+  font-size: 28px;
+  color: #2c2c2e;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 20px 0;
+}

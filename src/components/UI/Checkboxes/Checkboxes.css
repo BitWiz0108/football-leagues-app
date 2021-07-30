@@ -1,0 +1,40 @@
+.containerListCheckboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.containerLabel {
+  padding: 10px 15px;
+}
+
+.containerLabel input[type="checkbox"]:after {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  top: -4px;
+  left: -1px;
+  position: relative;
+  background-color: white;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #c2191f;
+}
+
+.containerLabel input[type="checkbox"]:checked:after {
+  width: 18px;
+  height: 18px;
+  top: -4px;
+  left: -1px;
+  position: relative;
+  background-color: #c2191f;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #c2191f;
+}
+.textLabel {
+  padding-left: 15px;
+}

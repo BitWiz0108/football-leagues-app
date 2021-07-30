@@ -1,0 +1,36 @@
+.leagueContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  width: 500px;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border-bottom: thin solid #c2191f;
+  cursor: pointer;
+}
+
+.leagueContainer:hover {
+  border-bottom-width: 3px;
+}
+
+.imgBox {
+  width: 50px;
+  height: 30px;
+}
+
+.imgBox > img {
+  height: 100%;
+  width: 100%;
+}
+
+.leagueName {
+  padding-left: 10px;
+  color: black;
+}
+
+.leagueName > h2 {
+  font-size: 21px;
+}

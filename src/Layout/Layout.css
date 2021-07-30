@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  background-color: #c2191f;
+}
+
+main {
+  width: 1000px;
+  min-height: calc(100vh - 90px);
+  margin: 0 auto;
+}
+
+.logo {
+  cursor: pointer;
+}

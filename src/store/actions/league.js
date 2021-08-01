@@ -50,7 +50,7 @@ export const fetchLeague = (code) => {
     axios
       .get(API, {
         headers: {
-          "X-Auth-Token": process.env.REACT_APP_AUTH_TOKEN,
+          "X-Auth-Token": process.env.REACT_APP_FOOTALL_API_AUTH_TOKEN,
         },
       })
       .then((res) => {
@@ -71,7 +71,7 @@ export const fetchScorers = (code) => {
     axios
       .get(API, {
         headers: {
-          "X-Auth-Token": process.env.REACT_APP_AUTH_TOKEN,
+          "X-Auth-Token": process.env.REACT_APP_FOOTALL_API_AUTH_TOKEN,
         },
       })
       .then((res) => {

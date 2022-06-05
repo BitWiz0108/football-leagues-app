@@ -10,7 +10,7 @@ App to check the statistics of popular football leagues.
 
 ### 1. npm install
 
-#### First install modules
+#### First install modules 
 
 ### 2. npm start
 
